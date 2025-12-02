@@ -1,0 +1,16 @@
+# Ignorer le dossier des dépendances Python
+__pycache__/
+.venv/
+venv/
+
+# Fichiers de log et de données temporaires
+*.csv          # Pour ton fichier trading_journal.csv
+*.log
+
+# Fichiers sensibles (mots de passe, clés)
+*.env
+.env
+
+# Les dossiers d'application web Python
+dist/
+build/
